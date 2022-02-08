@@ -11,6 +11,13 @@ public class Fruit {
     private float averageWeight;
     public ArrayList<String> colors;
 
+    public Fruit(String name, float averageWeight, ArrayList<String> colors) {
+
+        this.name = name;
+        this.averageWeight = averageWeight;
+        this.colors = colors;
+    }
+
     public String getName() {
         return name;
     }
