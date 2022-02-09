@@ -13,6 +13,8 @@ public class BankAccount {
         this.activated = activated;
     }
 
+
+
     public int getAccountNumber() {
         return accountNumber;
     }

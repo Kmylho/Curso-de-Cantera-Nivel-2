@@ -13,35 +13,7 @@ public class Class {
         this.approved = approved;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getTeacher() {
-        return teacher;
-    }
-
-    public Float getGrade() {
-        return grade;
-    }
-
-    public boolean isApproved() {
-        return approved;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setTeacher(String teacher) {
-        this.teacher = teacher;
-    }
-
-    public void setGrade(Float grade) {
-        this.grade = grade;
-    }
-
-    public void setApproved(boolean approved) {
-        this.approved = approved;
+    public void ShowClass(){
+        System.out.println(this.name+" ,"+this.teacher+" ,"+this.grade+" ,"+this.approved);
     }
 }
